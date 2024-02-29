@@ -1,0 +1,123 @@
+*{
+  font-family: roboto;
+}
+body{
+  background-color: 	#2d2d30;
+}
+.resetbtn{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.retrybtn{
+  width: 100%;
+}
+.reset-score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: aliceblue;
+  cursor: pointer;
+}
+#playGame-btn{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border-width: 1px;
+  border-radius: 100%;
+  border-color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+#playGame-btn:hover{
+  background-color: rgb(75, 75, 75);
+}
+.game-icon{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  
+}
+.rock-icon{
+  background-color: grey;
+}
+.paper-icon{
+  background-color: grey;
+}
+.scissors-icon{
+  background-color:grey;
+}
+.icons-alignment{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.js-result{
+  color: white;
+  font-size: 18px;
+}
+.score-css{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.move-css{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  color: white;
+}
+.show-css{
+  width: 75px;
+}
+.js-show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background-color: #121212;
+  border-radius: 50px;
+  padding: 20px 40px;
+}
+@media screen and (max-width: 480px) {
+  .reset-score{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .icons-alignment{
+    max-width: 200px;
+  }
+  .js-show{
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .reset-score{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .icons-alignment{
+    max-width: 300px;
+  }
+  .js-show{
+    padding: 10px 20px;
+  }
+}
